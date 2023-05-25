@@ -11,10 +11,26 @@ namespace fukuv0525
         {
             MessageBox.Show("kato masahiro");
             label1.Visible = false;
-            button1.Left = button1.Left + 15;
-            button2.Left = button2.Left + 15;
-            button3.Left = button3.Left + 15;
-            button4.Left = button4.Left + 15;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Top -= 15;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Top -= 15;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Top += 15;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Top -= 15;
         }
     }
 }
